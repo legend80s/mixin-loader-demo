@@ -12,7 +12,7 @@ module.exports = {
     preLoaders: [
       {
         test: /index\.scss$/,
-        loader: 'mixin-loader?mixins[]=css3', // or mixins[]=border-radius
+        loader: 'mixin-loader',
       },
     ],
 

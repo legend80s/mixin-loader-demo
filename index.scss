@@ -1,3 +1,4 @@
 .btn {
-  @include border-radius(2px, 2px);
+  @include border-radius;
+  @include box-shadow;
 }
